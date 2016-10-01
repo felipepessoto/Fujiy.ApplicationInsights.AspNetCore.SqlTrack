@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A9948303-CECF-44EB-88EC-0DA13F5D6127}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D53B516F-CFF8-42A0-898D-FE1886021170}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Fujiy.ApplicationInsights.AspNetCore.SqlTrack", "src\Fujiy.ApplicationInsights.AspNetCore.SqlTrack\Fujiy.ApplicationInsights.AspNetCore.SqlTrack.xproj", "{B17D516C-B395-4E90-9A69-2662417CCF81}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B17D516C-B395-4E90-9A69-2662417CCF81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B17D516C-B395-4E90-9A69-2662417CCF81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B17D516C-B395-4E90-9A69-2662417CCF81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B17D516C-B395-4E90-9A69-2662417CCF81}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B17D516C-B395-4E90-9A69-2662417CCF81} = {A9948303-CECF-44EB-88EC-0DA13F5D6127}
+	EndGlobalSection
+EndGlobal
