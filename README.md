@@ -8,7 +8,7 @@ Setup:
 
 Add Fujiy.ApplicationInsights.AspNetCore.SqlTrack package
 
-On your Configure method, add TelemetryClient paramater and add AiEfCoreLoggerProvider to ILoggerFactory:
+On your Configure method, add TelemetryClient parameter and add AiEfCoreLoggerProvider to ILoggerFactory:
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory, TelemetryClient tc)
         {
