@@ -57,7 +57,7 @@ namespace Fujiy.ApplicationInsights.AspNetCore.SqlTrack
                     {
                         dependencyTelemetry.Duration = TimeSpan.FromMilliseconds(dbCommandLogData.ElapsedMilliseconds.GetValueOrDefault());
                     }
-                    dependencyTelemetry.DependencyKind = "SQL";
+                    dependencyTelemetry.Type = "SQL";
 
 
                     dependencyTelemetry.Success = exception == null;
