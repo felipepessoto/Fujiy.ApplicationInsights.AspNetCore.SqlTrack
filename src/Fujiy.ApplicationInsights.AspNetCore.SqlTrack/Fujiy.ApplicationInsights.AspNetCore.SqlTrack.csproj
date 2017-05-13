@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <AssemblyTitle>SQL Dependency Tracking for Application Insights for ASP.NET Core</AssemblyTitle>
+    <Authors>fujiy</Authors>
+    <TargetFramework>netstandard1.6</TargetFramework>
+    <AssemblyName>Fujiy.ApplicationInsights.AspNetCore.SqlTrack</AssemblyName>
+    <PackageId>Fujiy.ApplicationInsights.AspNetCore.SqlTrack</PackageId>
+    <PackageTags>Analytics;ApplicationInsights;Telemetry;AppInsights;aspnetcore</PackageTags>
+    <PackageProjectUrl>http://blog.fujiy.net/post/application-insights-aspnet-core-sql-dependency-track</PackageProjectUrl>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/fujiy/Fujiy.ApplicationInsights.AspNetCore.SqlTrack</RepositoryUrl>
+    <NetStandardImplicitPackageVersion>1.6.0</NetStandardImplicitPackageVersion>
+    <PackageTargetFallback>$(PackageTargetFallback);dnxcore50</PackageTargetFallback>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights" Version="2.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="1.0.2" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="1.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="1.0.3" />
+  </ItemGroup>
+
+</Project>
